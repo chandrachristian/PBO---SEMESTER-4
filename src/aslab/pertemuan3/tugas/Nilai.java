@@ -4,29 +4,29 @@ public class Nilai {
     int nim, absen, tugas, uts, uas, akhir;
     String nama;
 
-    double Absen() {
+    int Absen() {
         double hasil = absen * 0.1;
-        return hasil;
+        return (int) hasil;
     }
 
-    double Tugas() {
+    int Tugas() {
         double hasil = tugas * 0.2;
-        return hasil;
+        return (int) hasil;
     }
 
-    double Uts() {
+    int Uts() {
         double hasil = uts * 0.3;
-        return hasil;
+        return (int) hasil;
     }
 
-    double Uas() {
+    int Uas() {
         double hasil = uas * 0.4;
-        return hasil;
+        return (int) hasil;
     }
 
-    double akhir() {
+    int akhir() {
         double hasil = Absen() + Tugas() + Uts() + Uas();
-        return hasil;
+        return (int) hasil;
     }
 
     void CetakNilai() {
