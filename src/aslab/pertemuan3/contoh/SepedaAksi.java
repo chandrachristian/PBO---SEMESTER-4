@@ -1,4 +1,4 @@
-package aslab.pertemuan3;
+package aslab.pertemuan3.contoh;
 
 public class SepedaAksi {
     public static void main(String[] args) {
