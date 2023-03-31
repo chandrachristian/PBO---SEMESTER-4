@@ -1,7 +1,7 @@
 package pbo.pertemuan4.Example1;
 
 public class Calculate {
-    private int number1;
+    int number1;
     int number2;
 
     void welcome(String name) {
@@ -11,6 +11,16 @@ public class Calculate {
 
     int additionNumber() {
         int result = number1 + number2;
+        return result;
+    }
+
+    int kurangNumber() {
+        int result = number1 - number2;
+        return result;
+    }
+
+    int kaliNumber() {
+        int result = number1 * number2;
         return result;
     }
 
