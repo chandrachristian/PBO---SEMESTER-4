@@ -23,6 +23,16 @@ class Mobil {
     void jumlahKursi() {
         System.out.println("5 Kursi");
     }
+
+    int jumlahBan(int a) {
+        int kembali = a + 100;
+        return kembali;
+    }
+
+    int jumlahBanBiasa() {
+        int seluruh = 1 + ban;
+        return seluruh;
+    }
 }
 
 public class MobilBeraksi {
@@ -30,8 +40,6 @@ public class MobilBeraksi {
         Mobil mobilku = new Mobil();
         Mobil mobilmu = new Mobil();
 
-        mobilku.hello();
-        mobilku.hello2("Chandra");
         mobilmu.kapasitasMobil(200);
         mobilku.jumlahKursi();
 
@@ -46,10 +54,12 @@ public class MobilBeraksi {
         System.out.print("Warna Mobilku " + mobilku.warna);
         System.out.println(" dan Tahun produksi " + mobilku.tahunProduksi);
         System.out.println("Terdapat " + mobilku.ban + " Ban");
+        System.out.println("jumlah ban seluruhnya " + mobilku.jumlahBanBiasa());
 
         System.out.print("Warna Mobilku " + mobilmu.warna);
         System.out.println(" dan Tahun produksi " + mobilmu.tahunProduksi);
         System.out.println("Terdapat " + mobilmu.ban + " Ban");
+        System.out.println("jumlah ban seluruhnya " + mobilmu.jumlahBanBiasa());
 
     }
 }
