@@ -1,11 +1,11 @@
 package pbo.dasar;
 
 public class TipeDataBukanPrimitif {
-    
+
     public static void main(String[] args) {
-        
-        Integer iniInteger = 100;
-        Long iniLong = 1000L;
+
+        // Integer iniInteger = 100;
+        // Long iniLong = 1000L;
 
         Byte iniByte = null;
 
@@ -15,15 +15,15 @@ public class TipeDataBukanPrimitif {
 
         System.out.println(iniByte);
 
-        int iniInt = 100;
+        // int iniInt = 100;
 
-        Integer iniObject = iniInt;
+        // Integer iniObject = iniInt;
 
-        short iniShort = iniObject.shortValue();
-        long iniLong2 = iniObject.longValue();
-        float iniFloat = iniObject.floatValue();
+        // short iniShort = iniObject.shortValue();
+        // long iniLong2 = iniObject.longValue();
+        // float iniFloat = iniObject.floatValue();
 
-        Long amout = 1000000L;
-        
+        // Long amout = 1000000L;
+
     }
 }
