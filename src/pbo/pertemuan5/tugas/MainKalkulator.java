@@ -5,6 +5,7 @@ import java.util.Scanner;
 class Kalkulator {
     int a;
     int b;
+    String nama;
 
     void hello(String nama) {
         System.out.println("Selamat datang " + nama + " di Kalkulator Mandiri\n");
@@ -42,12 +43,18 @@ public class MainKalkulator {
         Scanner input = new Scanner(System.in);
         Kalkulator obj = new Kalkulator();
 
+        System.out.print("Masukkan nama anda : ");
+        obj.nama = input.nextLine();
+
+        System.out.println("Terima kasih sudah menggunakan Kalkulator ini " + obj.nama);
+
         System.out.print("Masukkan Angka 1 : ");
         obj.a = input.nextInt();
         System.out.print("Masukkan Angka 2 : ");
         obj.b = input.nextInt();
+        System.out.println();
 
-        obj.hello("Chandra");
+        // obj.hello("Chandra");
         obj.Pertambahan();
         obj.Pengurangan();
         System.out.println(obj.Perkalian(obj.a, obj.b));
