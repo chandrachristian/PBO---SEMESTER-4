@@ -7,9 +7,9 @@ class Kalkulator {
     int b;
     String nama;
 
-    void hello(String nama) {
-        System.out.println("Selamat datang " + nama + " di Kalkulator Mandiri\n");
-    }
+    // void hello(String nama) {
+    // System.out.println("Selamat datang " + nama + " di Kalkulator Mandiri\n");
+    // }
 
     void Pertambahan() {
 
