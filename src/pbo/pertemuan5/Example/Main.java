@@ -1,24 +1,24 @@
 package pbo.pertemuan5.Example;
 
 class A {
-    protected String name; // protected member field
+    String name;
 
-    protected void solve() { // protected method
-        System.out.println("Superclass method");
+    public void getName(String str) {
+        System.out.println("I am " + str);
     }
 }
 
 class B extends A {
-    void solve2() {
-        System.out.println("Name: " + name); // accessing name value from superclass
+    public void display() {
+        System.out.println("I am derived from class A " + name);
     }
 }
 
-public class Main {
+class Main {
     public static void main(String[] args) {
-        B obj = new B(); // object created (subclass)
+        B obj = new B();
         obj.name = "Inheritance";
-        obj.solve(); // calling superclass method
-        obj.solve2();
+        obj.display();
+        obj.getName("Learning");
     }
 }
