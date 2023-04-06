@@ -3,8 +3,8 @@ package pbo.pertemuan5.tugas;
 import java.util.Scanner;
 
 class Kalkulator {
-    int a;
-    int b;
+    private int a;
+    private int b;
     String nama;
 
     // void hello(String nama) {
