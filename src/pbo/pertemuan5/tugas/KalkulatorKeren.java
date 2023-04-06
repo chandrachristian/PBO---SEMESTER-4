@@ -36,7 +36,7 @@ class Kalkulator {
     }
 }
 
-public class MainKalkulator {
+public class KalkulatorKeren {
 
     public static void main(String[] args) {
 
