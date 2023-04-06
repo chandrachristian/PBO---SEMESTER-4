@@ -18,14 +18,19 @@ public class CalculatorStandar {
     }
 
     void pengurangan() {
-
+        int result = number1 - number2;
+        System.out.println("Hasil : " + result);
     }
 
-    int perkalian() {
-        return 0;
+    int perkalian(int a, int b) {
+        int result = a * b;
+        System.out.println("Hasil : " + result);
+        return result;
     }
 
     int pembagian() {
-        return 0;
+        int result = number1 / number2;
+        System.out.println("Hasil : " + result);
+        return result;
     }
 }

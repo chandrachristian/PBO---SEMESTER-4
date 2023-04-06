@@ -7,4 +7,9 @@ public class CalculatorScientific extends CalculatorStandar {
         System.out.println("number : " + dua);
     }
 
+    static void tangen(int number2) {
+        double tan = Math.tan(number2);
+        System.out.println("number : " + tan);
+    }
+
 }
