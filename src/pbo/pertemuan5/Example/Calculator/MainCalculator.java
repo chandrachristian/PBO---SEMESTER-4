@@ -8,11 +8,11 @@ public class MainCalculator {
         CalculatorScientific.akarDua(25);
         CalculatorScientific.tangen(30);
 
-        obj.setNumber1(10);
+        obj.setNumber1(20);
         obj.setNumber2(20);
         obj.pertambahan();
         obj.pengurangan();
-        obj.perkalian(10, 20);
+        obj.perkalian(obj.getNumber1(), obj.getNumber2());
         obj.pembagian();
     }
 }
