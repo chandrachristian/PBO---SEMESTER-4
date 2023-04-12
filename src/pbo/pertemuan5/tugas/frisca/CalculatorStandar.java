@@ -1,36 +1,30 @@
 package pbo.pertemuan5.tugas.frisca;
 
 public class CalculatorStandar {
-    private double number1;
-    private double number2;
+    private int number1;
+    private int number2;
 
-    void setNumber1 (double a){
+    void setNumber1 (int a){
         number1=a;
     }
-    void setNumber2 (double b){
+    void setNumber2 (int b){
         number2=b;
     }
-    double getNumber1 (){
-        return number1;
-    }
-    double getNumber2 (){
-        return number2;
-    }
     void pertambahan (){
-        double result = number1 + number2;
+        int result = number1 + number2;
         System.out.println("hasil dari pertambahan adalah = " + result);
     }
     void pengurangan (){
-        double result =number1 - number2;
+        int result =number1 - number2;
         System.out.println("hasil dari pengurangan adalah = " + result);
     }
-    double perkalian(double a, double b) {
-            double result = a * b;
+    int perkalian(int c, int d) {
+            int result = c * d;
             return result;
     }
     
-    double pembagian() {
-            double result = number1 / number2;
+    int pembagian() {
+            int result = number1 / number2;
             return result;
     }
     

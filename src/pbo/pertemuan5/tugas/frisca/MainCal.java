@@ -3,19 +3,19 @@ package pbo.pertemuan5.tugas.frisca;
 public class MainCal {
     public static void main (String[]example) {
 
-        CalculatorStandar cal = new CalculatorStandar();
+        CalculatorStandar foo = new CalculatorStandar();
         CalculatorScientific objkal = new CalculatorScientific();
+        
+        foo.setNumber1(2);
+        foo.setNumber2(20);
 
-        objkal.akarDua(25);
-        objkal.pangkatDua(10,2);
-
-        cal.setNumber1(20);
-        cal.setNumber2(20);
-
-        cal.pertambahan();
-        cal.pengurangan();
-        System.out.println("hasil dari perkalian adalah = " + cal.perkalian(cal.getNumber1(), cal.getNumber2()));
-        System.out.println("hasil dari pembagian adalah = " + cal.pembagian());
+        objkal.akarDua(20);
+        System.out.println("Hasil pangkat dari : " + objkal.pangkat(20, 2));
+        objkal.sin(20);
+        foo.pertambahan();
+        foo.pengurangan();
+        System.out.println("Hasil perkalian dari : " + foo.perkalian(20, 2));
+        System.out.println("Hasil pembagian dari : " + foo.pembagian());
     }
     
 }

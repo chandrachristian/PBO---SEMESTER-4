@@ -1,14 +1,18 @@
 package pbo.pertemuan5.tugas.frisca;
 
 public class CalculatorScientific {
-    public void akarDua(int number) {
+
+    void akarDua (int number){
         double dua = Math.sqrt(number);
-        System.out.println("Akar = " + dua);
+        System.out.println("Hasil nilai akhir " + dua);    
     }
-    void pangkatDua(int pangkat, int dua){
-        double hasil = Math.pow(pangkat, dua);
-        System.out.println(pangkat + " pangkat dua" + dua + " adalah = " + hasil);
+
+    double pangkat (int x, int y){
+        return Math.pow(x, y);
     }
     
-   
+    void sin (double x){
+        double sinvalue = Math.sin(Math.toRadians(x));
+        System.out.println("Hasil sin " + sinvalue);
+    }
 }
