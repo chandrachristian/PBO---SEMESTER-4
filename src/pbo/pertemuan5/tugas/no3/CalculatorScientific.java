@@ -1,4 +1,4 @@
-package pbo.pertemuan5.Example.Calculator;
+package pbo.pertemuan5.tugas.no3;
 
 public class CalculatorScientific extends CalculatorStandar {
 

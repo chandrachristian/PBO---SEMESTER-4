@@ -9,7 +9,7 @@ public class Lampu implements interfaceLampu {
             System.out.println("Hidupkan lampu! --> Lampu Hidup");
         } else {
             System.out.println("Hidupkan lampu! --> Lampu sudah hidup kok");
-        }
+        }   
     }
 
     public void matikan() {

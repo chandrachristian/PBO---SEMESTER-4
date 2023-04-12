@@ -1,6 +1,6 @@
-package pbo.pertemuan5.Example.Calculator;
+package pbo.pertemuan5.tugas.no3;
 
-public class MainCalculator {
+public class EnkapsulasiDanInheritance {
 
     public static void main(String[] args) {
         CalculatorScientific obj = new CalculatorScientific();

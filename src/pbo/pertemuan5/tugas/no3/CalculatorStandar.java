@@ -1,4 +1,4 @@
-package pbo.pertemuan5.Example.Calculator;
+package pbo.pertemuan5.tugas.no3;
 
 public class CalculatorStandar {
     private int number1;
@@ -31,8 +31,6 @@ public class CalculatorStandar {
     }
 
     int perkalian(int a, int b) {
-        setNumber1(a);
-        setNumber2(b);
         int result = a * b;
         System.out.println("Hasil Perkalian " + number1 + " * " + number2 + "\t\t: " + result);
         return result;

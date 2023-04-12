@@ -1,13 +1,8 @@
-package pbo.pertemuan5.tugas;
+package pbo.pertemuan5.tugas.no2;
 
 class Kalkulator {
     private int a;
     private int b;
-    String nama;
-
-    // void hello(String nama) {
-    // System.out.println("Selamat datang " + nama + " di Kalkulator Mandiri\n");
-    // }
 
     void setA(int a) {
         this.a = a;
@@ -15,6 +10,14 @@ class Kalkulator {
 
     void setB(int b) {
         this.b = b;
+    }
+
+    public int getA(){
+        return a;
+    }
+
+    public int getB(){
+        return b;
     }
 
     void Pertambahan() {
@@ -31,7 +34,7 @@ class Kalkulator {
 
     int Perkalian(int a, int b) {
         int hasilPerkalian = a * b;
-        System.out.print("Perkalian " + a + " * " + b + " = ");
+        System.out.println("Perkalian " + a + " * " + b + " = " + hasilPerkalian);
         return hasilPerkalian;
     }
 
@@ -42,18 +45,18 @@ class Kalkulator {
     }
 }
 
-public class KalkulatorKeren {
+public class Enkapsulasi {
 
     public static void main(String[] args) {
 
         Kalkulator obj = new Kalkulator();
 
-        obj.setA(10);
+        obj.setA(20);
         obj.setB(20);
 
         obj.Pertambahan();
         obj.Pengurangan();
-        obj.Perkalian(10, 20);
+        obj.Perkalian(obj.getA(), obj.getB());
         obj.Pembagian();
 
     }
