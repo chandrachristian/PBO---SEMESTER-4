@@ -1,4 +1,4 @@
-package Minggu6.ExampleLoading;
+package pbo.Minggu6.ExampleLoading;
 
 public class Calculate {
     int number1;
