@@ -5,7 +5,7 @@ public class SepedaGunungBeraksi {
 
         SepedaGunung sg = new SepedaGunung();
 
-        sg.setGir(3);
+        sg.setGir(4);
         System.out.println(sg.getGir());
 
         sg.setSadel(1);

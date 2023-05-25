@@ -1,4 +1,4 @@
-package Diskusi;
+package pbo.Diskusi;
 
 public class Main {
     public static void main(String[] args) {

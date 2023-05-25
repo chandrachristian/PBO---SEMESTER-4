@@ -1,17 +1,15 @@
-package TugasKelompok4.polymorphism;
-
-
+package pbo.TugasKelompok4.polymorphism;
 
 class Perhitungan {
-    
+
     public int variabel(int a, int b) {
-       return a + b;
+        return a + b;
     }
-    
+
     public int variabel(int a, int b, int c) {
-       return a + b + c;
+        return a + b + c;
     }
- } 
+}
 
 public class Overloading1 {
     public static void main(String[] args) {

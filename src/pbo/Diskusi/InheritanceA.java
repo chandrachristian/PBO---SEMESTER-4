@@ -1,4 +1,4 @@
-package Diskusi;
+package pbo.Diskusi;
 
 public class InheritanceA {
     void welcome() {
