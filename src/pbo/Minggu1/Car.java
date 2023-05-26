@@ -1,4 +1,4 @@
-package Minggu1;
+package pbo.Minggu1;
 
 public class Car {
 

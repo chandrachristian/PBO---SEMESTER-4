@@ -1,29 +1,74 @@
 package pbo.Diskusi.Diskusi;
 
-class InheritanceA {
-    public void welcome() {
-        System.out.println("Kami Ada 5");
+// Abstrak class Hewan
+abstract class Hewan {
+    private String jenis;
+    private String nama;
+
+    // Constructor
+    public Hewan(String jenis, String nama) {
+        this.jenis = jenis;
+        this.nama = nama;
     }
 
-    public void welcome(String name) {
-        System.out.println("Kami " + name);
+    // Method abstrak
+    public abstract void suara();
+
+    // Getter jenis
+    public String getJenis() {
+        return jenis;
+    }
+
+    // Setter jenis
+    public void setJenis(String jenis) {
+        this.jenis = jenis;
+    }
+
+    // Getter nama
+    public String getNama() {
+        return nama;
+    }
+
+    // Setter nama
+    public void setNama(String nama) {
+        this.nama = nama;
     }
 }
 
-class InheritanceB extends InheritanceA {
-    public InheritanceB() {
-        System.out.println("Hello");
+// Subclass Anjing yang mewarisi Hewan
+class Anjing extends Hewan {
+    // Constructor
+    public Anjing(String jenis, String nama) {
+        super(jenis, nama);
     }
 
-    public void welcome() {
-        System.out.println("Kami Ada 6");
+    // Implementasi method abstrak
+    public void suara() {
+        System.out.println("Guk guk!");
     }
 }
 
+// Subclass Kucing yang mewarisi Hewan
+class Kucing extends Hewan {
+    // Constructor
+    public Kucing(String jenis, String nama) {
+        super(jenis, nama);
+    }
+
+    // Implementasi method abstrak
+    public void suara() {
+        System.out.println("Meong meong!");
+    }
+}
+
+// Main class
 public class Main {
     public static void main(String[] args) {
-        InheritanceB objInh = new InheritanceB();
-        objInh.welcome();
-        objInh.welcome("Kelompok 1");
+        Hewan anjing = new Anjing("Anjing", "Doggy");
+        Hewan kucing = new Kucing("Kucing", "Kitty");
+
+        // Polymorphism
+        anjing.suara();
+        kucing.suara();
     }
 }
