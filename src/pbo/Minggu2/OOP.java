@@ -1,4 +1,4 @@
-package Minggu2;
+package pbo.Minggu2;
 
 import java.util.Scanner;
 

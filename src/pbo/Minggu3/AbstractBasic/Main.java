@@ -1,4 +1,4 @@
-package Minggu3.AbstractBasic;
+package pbo.Minggu3.AbstractBasic;
 
 //abstract class
 abstract class Car {

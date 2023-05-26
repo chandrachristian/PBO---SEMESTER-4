@@ -1,4 +1,4 @@
-package Minggu3.Abstract2;
+package pbo.Minggu3.Abstract2;
 
 public class Triangle extends Shape {
     private float base;

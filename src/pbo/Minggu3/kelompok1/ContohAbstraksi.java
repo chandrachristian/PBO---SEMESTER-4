@@ -1,4 +1,4 @@
-package Minggu3.kelompok1;
+package pbo.Minggu3.kelompok1;
 
 abstract class Bentuk {
     protected int x, y;

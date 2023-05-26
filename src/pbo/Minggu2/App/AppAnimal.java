@@ -1,7 +1,7 @@
-package Minggu2.App;
+package pbo.Minggu2.App;
 
-import Minggu2.Abstract.Animal;
-import Minggu2.Abstract.Cat;
+import pbo.Minggu2.Abstract.Animal;
+import pbo.Minggu2.Abstract.Cat;
 
 public class AppAnimal {
     public static void main(String[] args) {

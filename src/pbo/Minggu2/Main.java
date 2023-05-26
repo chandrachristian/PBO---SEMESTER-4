@@ -1,4 +1,4 @@
-package Minggu2;
+package pbo.Minggu2;
 
 public class Main {
     public static void main(String[] args) {

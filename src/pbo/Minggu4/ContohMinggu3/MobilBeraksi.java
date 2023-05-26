@@ -1,4 +1,4 @@
-package Minggu4.ContohMinggu3;
+package pbo.Minggu4.ContohMinggu3;
 
 /**
  * InnerMobilBeraksi

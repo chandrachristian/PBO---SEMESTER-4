@@ -1,4 +1,4 @@
-package Minggu2.Abstract;
+package pbo.Minggu2.Abstract;
 
 public abstract class Animal {
 
