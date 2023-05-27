@@ -1,6 +1,6 @@
-package Minggu5.Example;
+package pbo.Minggu5.Example;
 
-class A {
+class Chandra {
     protected String name; // protected member field
 
     protected void solve() { // protected method
@@ -8,7 +8,7 @@ class A {
     }
 }
 
-class B extends A {
+class B extends Chandra {
     void solve2() {
         System.out.println("Name: " + name); // accessing name value from superclass
     }

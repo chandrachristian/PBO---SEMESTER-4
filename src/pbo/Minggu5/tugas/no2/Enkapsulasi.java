@@ -1,4 +1,4 @@
-package Minggu5.tugas.no2;
+package pbo.Minggu5.tugas.no2;
 
 class Kalkulator {
     private int a;

@@ -1,4 +1,4 @@
-package Minggu4.kelompok2;
+package pbo.Minggu4.kelompok2;
 
 public class Buah {
     private String beratBuah;

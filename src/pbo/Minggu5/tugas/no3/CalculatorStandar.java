@@ -1,4 +1,4 @@
-package Minggu5.tugas.no3;
+package pbo.Minggu5.tugas.no3;
 
 public class CalculatorStandar {
     private int number1;

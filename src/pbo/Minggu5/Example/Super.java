@@ -1,6 +1,6 @@
-package Minggu5.Example;
+package pbo.Minggu5.Example;
 
-class A {
+class Christian {
     int i = 200;
 
     void solve() {
@@ -8,7 +8,7 @@ class A {
     }
 }
 
-class B extends A {
+class B extends Christian {
     int i = 100;
 
     void solve() { // overriding method - solve()

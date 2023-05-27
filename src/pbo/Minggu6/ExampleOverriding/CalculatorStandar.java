@@ -1,4 +1,4 @@
-package Minggu6.ExampleOverriding;
+package pbo.Minggu6.ExampleOverriding;
 
 public class CalculatorStandar {
 

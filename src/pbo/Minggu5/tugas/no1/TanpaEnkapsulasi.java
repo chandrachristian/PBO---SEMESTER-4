@@ -1,4 +1,4 @@
-package Minggu5.tugas.no1;
+package pbo.Minggu5.tugas.no1;
 
 import java.util.Scanner;
 

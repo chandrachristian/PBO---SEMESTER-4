@@ -1,4 +1,4 @@
-package TugasKelompok4.polymorphism;
+package pbo.TugasKelompok4.polymorphism;
 
 class Angka {
     

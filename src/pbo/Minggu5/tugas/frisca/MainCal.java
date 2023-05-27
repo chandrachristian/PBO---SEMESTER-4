@@ -1,4 +1,4 @@
-package Minggu5.tugas.frisca;
+package pbo.Minggu5.tugas.frisca;
 
 public class MainCal {
     public static void main (String[]example) {

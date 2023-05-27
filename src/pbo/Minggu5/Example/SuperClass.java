@@ -1,4 +1,4 @@
-package Minggu5.Example;
+package pbo.Minggu5.Example;
 
 class SuperClass1 {
     void methodSuper() {
